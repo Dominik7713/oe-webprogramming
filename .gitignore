@@ -8,3 +8,10 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# PHPStorm local files
+.idea/
+# Config files
+config.php
+# XAMPP/OS specific files
+Thumbs.db
+desktop.ini
