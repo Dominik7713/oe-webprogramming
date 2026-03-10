@@ -11,6 +11,9 @@ switch ($page) {
     case 'contact':
         include 'src/Views/contact.php';
         break;
+    case 'admin':
+        include 'src/Views/admin.php';
+        break;
     default:
         include 'src/Views/home.php';
         break;
