@@ -1,3 +1,21 @@
 <?php
-echo "<h1>Hello, World!</h1>";
+
+include 'includes/header.php';
+
+$page = $_GET['page'] ?? 'home';
+
+switch ($page) {
+    case 'projects':
+        include 'src/Views/projects.php';
+        break;
+    case 'contact':
+        include 'src/Views/contact.php';
+        break;
+    default:
+        include 'src/Views/home.php';
+        break;
+}
+
+include 'includes/footer.php';
+
 ?>
