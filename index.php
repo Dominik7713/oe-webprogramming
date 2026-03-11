@@ -1,5 +1,9 @@
 <?php
 
+session_start();
+
+require_once 'config.php';
+
 include 'includes/header.php';
 
 $page = $_GET['page'] ?? 'home';
