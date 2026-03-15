@@ -12,4 +12,54 @@
         Order/ Quotes). Currently learning ABAP development. Leveraging professional experience
         at GE Vernova to transition into a developer role focused on enterprise digital solutions.
     </p>
+    <hr style="width:70%">
+    <h3>Projects</h3>
+    <p>
+        TBD
+    </p>
+    <hr style="width:70%">
+    <h3>Skills</h3>
+
+    <div style="text-align: center">
+    <table>
+        <tr>
+            <td>ABAP</td>
+            <td>Object-Oriented Programming</td>
+
+         </tr>
+
+        <tr>
+            <td>C#</td>
+            <td>SQL</td>
+
+        <tr>
+            <td>Git</td>
+            <td>SAP Functional (User-level)</td>
+        </tr>
+    </table>
+    </div>
+
+    <hr style="width:70%">
+    <h3>Experience</h3>
+    <hr style="width:70%">
+    <h3>Education</h3>
+
+    <div style="text-align: center">
+        <table>
+            <tr>
+                <td>2024-present</td>
+                <td><strong>BSc in Business Informatics</strong><br>Obuda University</td>
+
+            </tr>
+
+            <tr>
+                <td>2021-2024</td>
+                <td><strong>BSc in Business Administration and Management</strong><br>Budapest University of Technology and Economics</td>
+
+        </table>
+    </div>
+
+    <hr style="width:70%">
+    <h3>Languages</h3>
+
 </main>
