@@ -17,10 +17,11 @@
     <p>
         TBD
     </p>
+
     <hr style="width:70%">
     <h3>Skills</h3>
 
-    <div style="text-align: center">
+    <div class="skills-table">
     <table>
         <tr>
             <td>ABAP</td>
@@ -31,6 +32,7 @@
         <tr>
             <td>C#</td>
             <td>SQL</td>
+        </tr>
 
         <tr>
             <td>Git</td>
@@ -41,10 +43,11 @@
 
     <hr style="width:70%">
     <h3>Experience</h3>
+
     <hr style="width:70%">
     <h3>Education</h3>
 
-    <div style="text-align: center">
+    <div class="education-table">
         <table>
             <tr>
                 <td>2024-present</td>
