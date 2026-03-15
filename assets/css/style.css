@@ -8,6 +8,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -20,6 +21,7 @@ main {
     margin: 0 auto;
     background-color: white;
     width: 100%;
+    box-sizing: border-box;
 }
 
 
