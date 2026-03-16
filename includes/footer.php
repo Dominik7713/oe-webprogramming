@@ -1,5 +1,5 @@
 </main> <footer>
-    <hr style="width:70%">
+    <hr style="width:80%; margin: 20px auto;">
     <p><b>Legal Disclaimer:</b> This website is an independent, hobby-based project.</p>
     <p><b>Data Processing and Methodology:</b> We do not collect or store any personal data from visitors to this website.</p>
 </footer>
