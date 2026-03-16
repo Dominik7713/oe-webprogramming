@@ -46,20 +46,30 @@
     <hr style="width:70%">
     <h3>Education</h3>
 
-    <div class="education-table">
-        <table>
-            <tr>
-                <td>2024-present</td>
-                <td><strong>BSc in Business Informatics</strong><br>Obuda University</td>
-
-            </tr>
-
-            <tr>
-                <td>2021-2024</td>
-                <td><strong>BSc in Business Administration and Management</strong><br>Budapest University of Technology and Economics</td>
-
-        </table>
-    </div>
+     <table class="education-table">
+         <tr>
+             <td class="edu-date">2024 – present</td>
+             <td>
+                 <strong>BSc in Business Informatics</strong><br>
+                 Obuda University
+             </td>
+         </tr>
+         <tr>
+             <td class="edu-date">2021 – 2024</td>
+             <td>
+                 <strong>BSc in Business Administration and Management</strong><br>
+                 Budapest University of Technology and Economics
+             </td>
+         </tr>
+     </table>
 
     <hr style="width:70%">
     <h3>Languages</h3>
+     <div class="languages-table">
+         <div class="lang-item">
+             <strong>Hungarian</strong> – Native/Bilingual
+         </div>
+         <div class="lang-item">
+             <strong>English</strong> – Proficient B2
+         </div>
+     </div>

@@ -13,7 +13,6 @@ body {
     color: #333;
 }
 
-
 main {
     flex: 1;
     padding: 20px;
@@ -23,7 +22,6 @@ main {
     width: 100%;
     box-sizing: border-box;
 }
-
 
 header {
     background-color: #002147;
@@ -55,7 +53,6 @@ footer {
     padding: 10px 0;
 }
 
-
 .social-links a,
 .social-links a:visited {
     text-decoration: none;
@@ -69,10 +66,37 @@ footer {
     text-decoration: none;
 }
 
-.skills-table,
-.education-table {
+.skills-table {
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 20px 0;
+}
+
+.education-table {
+    width: 100%;
+    padding: 0 60px;
+    border-spacing: 0 20px;
+    border-collapse: separate;
+}
+
+.education-table td {
+    vertical-align: center;
+}
+
+.edu-date {
+    width: 150px;
+    padding-right: 80px;
+}
+
+.languages-table{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px 0;
+}
+.lang-item {
+    line-height: 2.5;
 }
