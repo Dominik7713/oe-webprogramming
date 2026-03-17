@@ -8,7 +8,7 @@
         <hr>
 
         <p>
-            Junior Project Manager with C# OOP foundations and user-level SAP ERP knowledge (Inquiryto-
+            Junior Project Manager with C# OOP foundations and user-level SAP ERP knowledge (Inquiry to-
             Order/ Quotes). Currently learning ABAP development. Leveraging professional experience
             at GE Vernova to transition into a developer role focused on enterprise digital solutions.
         </p>
