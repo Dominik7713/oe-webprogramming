@@ -21,25 +21,23 @@
         <hr>
         <h3>Skills</h3>
 
-        <div class="skills-table">
-        <table>
+        <table class = "skills-table">
             <tr>
-                <td>ABAP</td>
-                <td>Object-Oriented Programming</td>
+                <td class = "skills-td">ABAP</td>
+                <td class = "skills-td">Object-Oriented Programming</td>
 
              </tr>
 
             <tr>
-                <td>C#</td>
-                <td>SQL</td>
+                <td class = "skills-td">C#</td>
+                <td class = "skills-td">SQL</td>
             </tr>
 
             <tr>
-                <td>Git</td>
-                <td>SAP Functional (User-level)</td>
+                <td class = "skills-td">Git</td>
+                <td class = "skills-td">SAP Functional (User-level)</td>
             </tr>
         </table>
-        </div>
 
         <hr>
         <h3>Experience</h3>

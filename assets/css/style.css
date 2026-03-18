@@ -83,6 +83,13 @@ footer {
     justify-content: flex-start;
     width: 100%;
     margin: 20px 0;
+    border-spacing: 0 10px;
+    border-collapse: separate;
+}
+
+.skills-td {
+    width: 150px;
+    padding-right: 80px;
 }
 
 .education-table {
