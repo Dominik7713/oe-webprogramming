@@ -41,6 +41,7 @@
 
         <hr>
         <h3>Experience</h3>
+
         <table class = "experience-table">
             <tr>
                 <td class = "experience-date"><i>05/2024 - present</i></td>
