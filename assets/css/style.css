@@ -117,3 +117,23 @@ footer {
 .lang-item {
     line-height: 2.5;
 }
+
+.experience-table {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px 0;
+}
+
+.experience-date{
+    width: 50px;
+    padding-right: 1px;
+    vertical-align: top;
+}
+
+.experience-table td {
+    line-height: 1.5;
+    width: 500px;
+    text-align: justify;
+}

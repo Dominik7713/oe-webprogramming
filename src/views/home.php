@@ -7,7 +7,7 @@
 
         <hr>
 
-        <p>
+        <p style="text-align: justify">
             Junior Project Manager with C# OOP foundations and user-level SAP ERP knowledge (Inquiry to-
             Order/ Quotes). Currently learning ABAP development. Leveraging professional experience
             at GE Vernova to transition into a developer role focused on enterprise digital solutions.
@@ -41,6 +41,30 @@
 
         <hr>
         <h3>Experience</h3>
+        <table class = "experience-table">
+            <tr>
+                <td class = "experience-date"><i>05/2024 - present</i></td>
+                <td class = "experience-table-td"><i><b>Junior Project Manager<br></b></i>
+                    Managed international Inquiry-to-Order (ITO) projects involving
+                    engineering, sales, and logistics, ensuring cross-functional
+                    alignment.<br>
+                    Gained functional exposure to ERP systems: Utilized SAP Fiori to
+                    review Quote details (e.g., pricing, assigned group) and Material
+                    Master reports, and monitored Quote statuses in Oracle to track
+                    project milestones.<br>
+                    Created and maintained digital solutions (e.g., Excel, VBA,
+                    Tableau, Salesforce reports)</td>
+
+            </tr>
+            <tr>
+                <td class = "experience-date"><i>04/2022 – 05/2024</i></td>
+
+                <td class = "experience-table-td"><i><b>Project Manager Intern<br></b></i>
+                    Supported daily project administration and data cleaning tasks for
+                    the ITO team, ensuring accurate reporting.</td>
+            </tr>
+
+        </table>
 
         <hr>
         <h3>Education</h3>
