@@ -1,3 +1,27 @@
+<?php
+
+/** @var PDO $pdo_projects */
+
+require_once 'projects.php';
+
+$stmt = $pdo_projects->query("SELECT * FROM projects WHERE is_active = 1 ORDER BY order_num ASC");
+$projectObjects = [];
+
+while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $projectObjects[] = new Project(
+            $row['id'],
+            $row['title'],
+            $row['description'],
+            $row['technologies'],
+            $row['image_path'],
+            $row['github_url'],
+            $row['order_num'],
+            $row['is_active'],
+            $row['created_at']
+    );
+}
+?>
+
 <div class="cv-content">
     <h1 style="text-align: center;">Dominik Balogh</h1>
         <div class="social-links" style="text-align: center; margin-bottom: 20px;">
@@ -13,10 +37,25 @@
             at GE Vernova to transition into a developer role focused on enterprise digital solutions.
         </p>
         <hr>
-        <h3>Projects</h3>
-        <p>
-            TBD
-        </p>
+
+    <h3>Projects</h3>
+    <div class="projects-summary">
+        <?php if (empty($projectObjects)): ?>
+            <p>Coming soon...</p>
+        <?php else: ?>
+            <?php foreach ($projectObjects as $project): ?>
+                <div class="project-item" style="margin-bottom: 15px;">
+                    <strong><?php echo $project->title; ?></strong> -
+                    <span class="tech-tags">
+                    <?php echo implode(', ', $project->getTechnologiesList()); ?>
+                </span>
+                    <p style="font-size: 0.9rem; margin-top: 5px;">
+                        <?php echo $project->description; ?>
+                    </p>
+                </div>
+            <?php endforeach; ?>
+        <?php endif; ?>
+    </div>
 
         <hr>
         <h3>Skills</h3>
