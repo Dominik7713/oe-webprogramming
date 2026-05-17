@@ -21,7 +21,6 @@ class Project {
         $this->is_active = $is_active;
         $this->created_at = $created_at;
     }
-
     public function getTechnologiesList() {
         return explode(',', $this->technologies);
     }
